@@ -10,5 +10,6 @@ let numbers:number[] = [1,2,3,4,5];
 let Mixed = [1, "2"]
 
 function calculateTax(amount:number):number {
-    // return amount * 0.08;
+    let x;
+    return amount * 0.08;
 }
