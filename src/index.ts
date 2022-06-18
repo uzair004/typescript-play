@@ -17,3 +17,12 @@ function calculateTax(amount:number, year = 2022):number {
 }
 
 calculateTax(100, 2022);
+
+let employee:{readonly id: number,name:string, age:number, retire: (date: Date) => void} = {
+    id: 1,
+    name: 'Uzair',
+    age: 22,
+    retire: (date: Date) => {
+        console.log(date);
+    }
+}
