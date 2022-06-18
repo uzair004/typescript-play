@@ -36,7 +36,7 @@ let employee:Employee = {
 
 // union types 
 function kgToLbs(weight: number | string): number {
-    
+
     // narrowing
     if(typeof weight === 'number') {
         return weight * 2.2;
@@ -44,3 +44,6 @@ function kgToLbs(weight: number | string): number {
         return parseInt(weight) * 2.2;
     }
     }
+
+    // literal types (multiple values)
+    let quantity: 50 | 100 = 50;
