@@ -9,7 +9,7 @@ export = {}
 
 // let Mixed = [1, "2"]
 
-function calculateTax(amount:number, year?:number):number {
+function calculateTax(amount:number, year = 2022):number {
     if(year === 2022) {
         return amount * 0.1;
     }
